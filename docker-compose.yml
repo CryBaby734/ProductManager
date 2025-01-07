@@ -24,7 +24,7 @@ services:
 
   jenkins:
     image: jenkins/jenkins:lts
-    container_name: jenkins
+    container_name: jenkins_new
     ports:
       - "8084:8080"   # Измените 8083 на 8084 или другой свободный порт
       - "50000:50000"
